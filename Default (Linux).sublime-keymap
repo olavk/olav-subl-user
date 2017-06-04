@@ -1,0 +1,15 @@
+[
+	{"keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false}},
+	{"keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true}},
+	{"keys": ["ctrl+shift+r"], "command": "reindent" },
+	{"keys": ["ctrl+shift+c"], "command": "run_macro_file", "args": {"file": "Packages/User/commentblock.sublime-macro"}},
+	{"keys": ["ctrl+shift+o"], "command": "insert_snippet", "args": { "name": "Packages/User/php_tag_translate.sublime-snippet" }},
+	{"keys": ["ctrl+shift+l"], "command": "insert_snippet", "args": { "name": "Packages/User/consolelog.sublime-snippet" }},
+	{"keys": ["ctrl+shift+k"], "command": "insert_snippet", "args": { "name": "Packages/User/globalclog.sublime-snippet" }},
+	{"keys": ["ctrl+shift+ö"], "command": "insert_snippet", "args": { "name": "Packages/User/printexit.sublime-snippet" }},
+	{"keys": ["ctrl+shift+,"], "command": "insert_snippet", "args": { "contents": "<" }},
+	{"keys": ["ctrl+shift+."], "command": "insert_snippet", "args": { "contents": ">" }},
+	{"keys": ["shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}},
+	{"keys": ["ctrl+shift+z"], "command": "toggle_comment", "args": { "block": false }},
+	{"keys": ["ctrl+alt+shift+z"], "command": "toggle_comment", "args": { "block": true }},
+]
